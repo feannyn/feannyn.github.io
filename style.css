@@ -1,0 +1,56 @@
+html{
+    min-height: 100vh;
+    width: 100vw;
+    font-size: 62.5%;
+    
+}
+
+body{
+    background-image: url(alex-knight-326705-unsplash.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center; 
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    text-align: center;
+    
+    border: 2px solid yellow;
+}
+
+
+.name{
+    color: #cecdcb;
+    opacity: 0.4;
+    font-size: 7.5rem;
+}
+
+.name:hover{
+    opacity: 1;
+    transition-duration:3s;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+}
+
+.btn-outline-dark{
+    background-color: transparent;
+    border-color: transparent;
+    white-space: normal;
+    font-size: 2rem;
+    color: #cecdcb;
+    width: 12rem;
+}
+
+.btn-outline-dark:hover{
+    opacity: 1;
+    transition-duration:.75s;
+}
